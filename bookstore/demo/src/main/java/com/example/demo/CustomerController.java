@@ -64,5 +64,4 @@ public class CustomerController {
         // Return the ModelAndView object
         return modelAndView;
     }
-    static 
 }
