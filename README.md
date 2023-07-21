@@ -1,6 +1,5 @@
-# Welcome to the Git Training Funhouse! 🎉
+# Welcome to our pull request haven 🎉
 
-![Git Logo](https://github.com/username/repo-name/blob/main/git_logo.png)
 
 ## Introduction
 
