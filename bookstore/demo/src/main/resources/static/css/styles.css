@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #4b4b4b;
+    background-color: #ffffff;
+}
+
+nav {
+    background-color: #02075d;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carousel-item {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 200px; /* you can adjust this value to suit your needs */
+    object-fit: cover; /* this will ensure that your images cover the area of their box without stretching */
+}
+
+
+footer {
+    background-color: #02075d;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+}
+
+.newsletter {
+    background-color: #0077b6;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.newsletter h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter label {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.newsletter input[type="text"] {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.newsletter input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #02075d;
+    border: none;
+    cursor: pointer;
+}
+
+.book-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.book-image {
+  flex: 0 0 50%; /* This sets the width of the image to 50% */
+  max-width: 50%; /* Prevents image from overflowing its container */
+}
+
+.book-description {
+  flex: 1;
+  padding: 0 10px; /* Adds a bit of padding to separate the image from the text */
+}
+
